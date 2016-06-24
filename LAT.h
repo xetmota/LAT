@@ -1,7 +1,7 @@
 /*
 TODO:
 
-1. Ввести знаковые, без знаковые целочисленные типы. Сейчас только WORD, HWORD, BYTE
+1. Г‚ГўГҐГ±ГІГЁ Г§Г­Г ГЄГ®ГўГ»ГҐ, ГЎГҐГ§ Г§Г­Г ГЄГ®ГўГ»ГҐ Г¶ГҐГ«Г®Г·ГЁГ±Г«ГҐГ­Г­Г»ГҐ ГІГЁГЇГ». Г‘ГҐГ©Г·Г Г± ГІГ®Г«ГјГЄГ® WORD, HWORD, BYTE
 
        SIZE IN BYTE AND ALWAYS Multiples 2
           ADDR IN ADDR_EVERY_WORD AS MODBUS
@@ -30,6 +30,8 @@ TODO:
 #define HWORD            2
 #define WORD             4
 #define FLOAT            4
+
+#define LOG_SIZE         10
 
 
 /*********         LOGIC ADDRESSES TABLE MODBUS    TABLE        ************/
@@ -579,9 +581,9 @@ TODO:
       #define STABILIZE_ACTION_BIT_pos            4
       #define STABILIZE_ACTION_BIT_size           1
 
-      //#define хз как назвать бит 5          (1 << 5)      
-      //#define хз как назвать бит 5          5     
-      //#define хз как назвать бит 5          1
+      //#define ГµГ§ ГЄГ ГЄ Г­Г Г§ГўГ ГІГј ГЎГЁГІ 5          (1 << 5)      
+      //#define ГµГ§ ГЄГ ГЄ Г­Г Г§ГўГ ГІГј ГЎГЁГІ 5          5     
+      //#define ГµГ§ ГЄГ ГЄ Г­Г Г§ГўГ ГІГј ГЎГЁГІ 5          1
 
       #define STORE_SPECTR_ACTION_BIT_mask        (1 << 6)
       #define STORE_SPECTR_ACTION_BIT_pos         6
