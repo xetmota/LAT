@@ -1,5 +1,5 @@
-#ifndef __TYPE_ATTRIBUTES_DEFINES_H
-#define __TYPE_ATTRIBUTES_DEFINES_H
+#ifndef __COMPILER_DEFINES
+#define __COMPILER_DEFINES_H
 
 #if   defined ( __CC_ARM )
 
