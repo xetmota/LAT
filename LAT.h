@@ -1,30 +1,14 @@
-/*
-TODO:
 
-1. Ââåñòè çíàêîâûå, áåç çíàêîâûå öåëî÷èñëåííûå òèïû. Ñåé÷àñ òîëüêî WORD, HWORD, BYTE
-
-       SIZE IN BYTE AND ALWAYS Multiples 2
-          ADDR IN ADDR_EVERY_WORD AS MODBUS
-
-//        ABRIVIATURE
-
-// RD - RADIATION DETECTOR
-
-*/
+/* TODO:
+ *
+ */
 
 
 #ifndef __LAT_H
 #define __LAT_H
 
 
-//#include "stdint.h"
 
-
-//#define USE__LAT_TYPES   1
-
-//#if USE__LAT_TYPES == 1
-#include "LAT_types.h"
-//#endif
 
 #define BYTE             1
 #define HWORD            2
@@ -34,7 +18,7 @@ TODO:
 #define LOG_SIZE         10
 
 
-/*********         LOGIC ADDRESSES TABLE MODBUS    TABLE        ************/
+/*********         LOGIC ADDRESSES TABLE        ************/
 
 /*        READ ONLY DATA      */
 
@@ -102,13 +86,13 @@ TODO:
       #define   ERR_CONFIG_DATA_BIT_pos       4   
       #define   ERR_CONFIG_DATA_BIT_size      1   
 
-      #define   ERR_CALIBR_SPECTR_BIT_mask    (1 << 5)
-      #define   ERR_CALIBR_SPECTR_BIT_pos     5
-      #define   ERR_CALIBR_SPECTR_BIT_size    1
+      #define   ERR_CALIBR_SPECTRUM_BIT_mask    (1 << 5)
+      #define   ERR_CALIBR_SPECTRUM_BIT_pos     5
+      #define   ERR_CALIBR_SPECTRUM_BIT_size    1
 
-      #define   ERR_GENERAL_SPECTR_BIT_mask   (1 << 6)
-      #define   ERR_GENERAL_SPECTR_BIT_pos    6
-      #define   ERR_GENERAL_SPECTR_BIT_size   1
+      #define   ERR_GENERAL_SPECTRUM_BIT_mask   (1 << 6)
+      #define   ERR_GENERAL_SPECTRUM_BIT_pos    6
+      #define   ERR_GENERAL_SPECTRUM_BIT_size   1
 
       #define   ERR_ROM_MEMORY_BIT_mask       (1 << 7)
       #define   ERR_ROM_MEMORY_BIT_pos        7
@@ -420,13 +404,13 @@ TODO:
       #define AUTO_MEAS_RANGE_MODE_BIT_pos    9
       #define AUTO_MEAS_RANGE_MODE_BIT_size   1
 
-      #define SPECTR_ACCUMULATION_BIT_mask    (1 << 10)
-      #define SPECTR_ACCUMULATION_BIT_pos     10
-      #define SPECTR_ACCUMULATION_BIT_size    1
+      #define SPECTRUM_ACCUMULATION_BIT_mask    (1 << 10)
+      #define SPECTRUM_ACCUMULATION_BIT_pos     10
+      #define SPECTRUM_ACCUMULATION_BIT_size    1
 
-      #define LED_IN_SPECTR_MODE_BIT_mask     (1 << 11)
-      #define LED_IN_SPECTR_MODE_BIT_pos      11
-      #define LED_IN_SPECTR_MODE_BIT_size     1
+      #define LED_IN_SPECTRUM_MODE_BIT_mask     (1 << 11)
+      #define LED_IN_SPECTRUM_MODE_BIT_pos      11
+      #define LED_IN_SPECTRUM_MODE_BIT_size     1
 
       #define AVERAGE_MEAS_MODE_BIT_mask      (1 << 12)
       #define AVERAGE_MEAS_MODE_BIT_pos       12
@@ -581,17 +565,17 @@ TODO:
       #define STABILIZE_ACTION_BIT_pos            4
       #define STABILIZE_ACTION_BIT_size           1
 
-      //#define õç êàê íàçâàòü áèò 5          (1 << 5)      
-      //#define õç êàê íàçâàòü áèò 5          5     
-      //#define õç êàê íàçâàòü áèò 5          1
+      #define CLEAR_SPECTRUM_ACTION_BIT_mask     (1 << 5)      
+      #define CLEAR_SPECTRUM_ACTION_BIT_pos      5     
+      #define CLEAR_SPECTRUM_ACTION_BIT_size     1       
 
-      #define STORE_SPECTR_ACTION_BIT_mask        (1 << 6)
-      #define STORE_SPECTR_ACTION_BIT_pos         6
-      #define STORE_SPECTR_ACTION_BIT_size        1
+      #define STORE_SPECTRUM_ACTION_BIT_mask     (1 << 6)
+      #define STORE_SPECTRUM_ACTION_BIT_pos      6
+      #define STORE_SPECTRUM_ACTION_BIT_size     1
 
-      #define LOAD_SPECTR_ACTION_BIT_mask         (1 << 7)
-      #define LOAD_SPECTR_ACTION_BIT_pos          7
-      #define LOAD_SPECTR_ACTION_BIT_size         1
+      #define LOAD_SPECTRUM_ACTION_BIT_mask      (1 << 7)
+      #define LOAD_SPECTRUM_ACTION_BIT_pos       7
+      #define LOAD_SPECTRUM_ACTION_BIT_size      1
 /***************************************************************************/
 /***************************************************************************/
 
