@@ -133,7 +133,7 @@
 
 /***************************************************************************/
 /***************************************************************************/
-#define   INTERFACE_STATISTIC           DEVICE_STATUS + DEVICE_STATUS_SIZE/2
+#define   INTERFACE_STATISTIC           DEVICE_STATUS_SIGNALS + DEVICE_STATUS_SIGNALS_SIZE/2
 #define   INTERFACE_STATISTIC_SIZE      7 * WORD
 
       #define   BUS_MSG_CNT_WORD              0*WORD         +         INTERFACE_STATISTIC
