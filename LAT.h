@@ -57,8 +57,11 @@
 /***************************************************************************/
 /***************************************************************************/
 
-#define   DEVICE_STATUS                 DEVICE_IDENTIFICATION + DEVICE_IDENTIFICATION_SIZE/2
-#define   DEVICE_STATUS_SIZE            6 * BYTE
+#define   DEVICE_STATUS_1                 DEVICE_IDENTIFICATION + DEVICE_IDENTIFICATION_SIZE/2
+#define   DEVICE_STATUS_1_SIZE            4 * BYTE
+
+#define   DEVICE_STATUS_2                 DEVICE_IDENTIFICATION + DEVICE_IDENTIFICATION_SIZE/2
+#define   DEVICE_STATUS_2_SIZE            2 * BYTE
 
 /***************************************************************************/
 /***************************************************************************/
