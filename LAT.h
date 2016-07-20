@@ -699,7 +699,9 @@
 /*        READ/WRITE DATA      */
 
 #define INTERFACE_OPTIONS_PHY_LAYER                         (RD_RADIOMETR_CALIBRATION_ACTION + RD_RADIOMETR_CALIBRATION_ACTION_SIZE/2)
-#define INTERFACE_OPTIONS_PHY_LAYER_SIZE                    (2 * WORD  )   
+#define INTERFACE_OPTIONS_PHY_LAYER_SIZE                    (2 * WORD  ) 
+
+      #define INTERFACE_OPTIONS_PHY_SPEED_WORD               (0 * WORD         +         INTERFACE_OPTIONS_PHY_LAYER)
 /***************************************************************************/
 /***************************************************************************/
   
