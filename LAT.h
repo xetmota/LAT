@@ -651,6 +651,17 @@
 
 #define   RD_COEFFICIENTS             (RD_RADIOMETR_CALIBRATION_TBL + RD_RADIOMETR_CALIBRATION_TBL_SIZE/2)
 #define   RD_COEFFICIENTS_SIZE        (10 * FLOAT)
+
+      #define RD_COEFFICIENT_1_FLOAT                        (0 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_2_FLOAT                        (1 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_3_FLOAT                        (2 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_4_FLOAT                        (3 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_5_FLOAT                        (4 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_6_FLOAT                        (5 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_7_FLOAT                        (6 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_8_FLOAT                        (7 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_9_FLOAT                        (8 * FLOAT         +         RD_COEFFICIENTS)
+      #define RD_COEFFICIENT_10_FLOAT                       (9 * FLOAT         +         RD_COEFFICIENTS)
 /***************************************************************************/
 /***************************************************************************/
 
