@@ -771,8 +771,8 @@
 /***************************************************************************/
 /***************************************************************************/
 
-#define RD_OPTIONS                          (RD_RADIOMETR_THRESHOLD + RD_RADIOMETR_THRESHOLD_SIZE/2)
-#define RD_OPTIONS_SIZE                     (2 * WORD)
+#define RD_OPTIONS                                     (RD_SPECTROMETR_OPTIONS + RD_SPECTROMETR_OPTIONS_SIZE/2)
+#define RD_OPTIONS_SIZE                                (2 * WORD)
 
       #define RD_OPTIONS_MOVEAVERWIN_WORD              (0*WORD         +         RD_OPTIONS)
       #define RD_OPTIONS_MEASFREQ_WORD                 (1*WORD         +         RD_OPTIONS)
