@@ -735,7 +735,7 @@
 /***************************************************************************/
 
 #define RD_DOSIMETER_THRESHOLD                          (RD_CNT_THRESHOLD + RD_CNT_THRESHOLD_SIZE/2)
-#define RD_DOSIMETER_THRESHOLD_SIZE                     (10 * FLOAT
+#define RD_DOSIMETER_THRESHOLD_SIZE                     (10 * FLOAT)
 
       #define   RD_DOSIMETER_THRESHOLD_1_FLOAT            (0*FLOAT         +         RD_DOSIMETER_THRESHOLD)
       #define   RD_DOSIMETER_THRESHOLD_2_FLOAT            (1*FLOAT         +         RD_DOSIMETER_THRESHOLD)
