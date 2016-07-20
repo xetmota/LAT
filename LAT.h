@@ -57,16 +57,7 @@
 /***************************************************************************/
 /***************************************************************************/
 
-#define   DEVICE_STATUS_1                 (DEVICE_IDENTIFICATION + DEVICE_IDENTIFICATION_SIZE/2)
-#define   DEVICE_STATUS_1_SIZE            (4 * BYTE)
-
-#define   DEVICE_STATUS_2                 (DEVICE_STATUS_1 + DEVICE_STATUS_1_SIZE/2)
-#define   DEVICE_STATUS_2_SIZE            (2 * BYTE)
-
-/***************************************************************************/
-/***************************************************************************/
-
-#define   DEVICE_STATUS_FLAGS           (DEVICE_STATUS_2 + DEVICE_STATUS_2_SIZE/2)
+#define   DEVICE_STATUS_FLAGS           (DEVICE_HASH_ALGORITHM + DEVICE_HASH_ALGORITHM_SIZE/2)
 #define   DEVICE_STATUS_FLAGS_SIZE      (4 * BYTE)
 
       #define   ERR_SOFT_BIT_mask             (1 << 0)
