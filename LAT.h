@@ -53,7 +53,6 @@
       #define   DEVICE_FIRMWARE_VER                  (1*WORD         +         DEVICE_IDENTIFICATION)
       #define   DEVICE_HARDWARE_VER                  (2*WORD         +         DEVICE_IDENTIFICATION)
       #define   DEVICE_ROM_VER                       (3*WORD         +         DEVICE_IDENTIFICATION)
-      #define   DEVICE_SERIAL_NUM                    (4*WORD         +         DEVICE_IDENTIFICATION)      
 
 /***************************************************************************/
 /***************************************************************************/
