@@ -1,4 +1,4 @@
-#ifndef __COMPILER_DEFINES
+#ifndef __COMPILER_DEFINES_H
 #define __COMPILER_DEFINES_H
 
 #if   defined ( __CC_ARM )
