@@ -708,8 +708,8 @@
 #define INTERFACE_OPTIONS_CH_LAYER                          (INTERFACE_OPTIONS_PHY_LAYER + INTERFACE_OPTIONS_PHY_LAYER_SIZE/2)
 #define INTERFACE_OPTIONS_CH_LAYER_SIZE                     (2 * HWORD )
 
-#define INTERFACE_RTU_MODE                                  (0*HWORD         +         INTERFACE_OPTIONS_CH_LAYER )   
-#define INTERFACE_ADDRESS                                   (1*HWORD         +         INTERFACE_OPTIONS_CH_LAYER )   
+#define INTERFACE_OPTIONS_CH_MODE                            (0*HWORD         +         INTERFACE_OPTIONS_CH_LAYER )   
+#define INTERFACE_OPTIONS_CH_ADDRESS                         (1*HWORD         +         INTERFACE_OPTIONS_CH_LAYER )   
 /***************************************************************************/
 /***************************************************************************/
       
