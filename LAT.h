@@ -475,13 +475,13 @@
 /***************************************************************************/
 /***************************************************************************/
 
-#define   TEMP_VALUE                  (CLOCKS_FLAGS + CLOCKS_FLAGS_SIZE/2)
-#define   TEMP_VALUE_SIZE             (1 * HWORD)
+#define   TEMPERATURE_VALUE                  (CLOCKS_FLAGS + CLOCKS_FLAGS_SIZE/2)
+#define   TEMPERATURE_VALUE_SIZE             (1 * HWORD)
 /***************************************************************************/
 /***************************************************************************/
 
-#define   TEMP_FLAGS                  (TEMP_VALUE + TEMP_VALUE_SIZE/2)
-#define   TEMP_FLAGS_SIZE             (2 * BYTE)
+#define   TEMPERATURE_FLAGS                  (TEMP_VALUE + TEMP_VALUE_SIZE/2)
+#define   TTEMPERATURE_FLAGS_SIZE             (2 * BYTE)
 /***************************************************************************/
 /***************************************************************************/
 
