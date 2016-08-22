@@ -702,7 +702,22 @@
 #define INTERFACE_OPTIONS_PHY_LAYER                         (RD_RADIOMETR_CALIBRATION_ACTION + RD_RADIOMETR_CALIBRATION_ACTION_SIZE/2)
 #define INTERFACE_OPTIONS_PHY_LAYER_SIZE                    (2 * WORD  ) 
 
-      #define INTERFACE_OPTIONS_PHY_SPEED_WORD               (0 * WORD         +         INTERFACE_OPTIONS_PHY_LAYER)
+      #define INTERFACE_OPTIONS_PHY_SPEED_WORD               (0 * WORD)
+      
+      #define INTERFACE_OPTIONS_PHY_UART_CONFIG              (1 * WORD)
+
+      // BIT WHICH INCLUDE IN INTERFACE_OPTIONS_PHY_UART_CONFIG
+            #define CNT_STOP_BIT_mask      (2 << 0)
+            #define CNT_STOP_BIT_pos       0
+            #define CNT_STOP_BIT_size      2
+            
+            #define EVEN_BIT_mask      (3 << 2)
+            #define EVEN_BIT_pos       2
+            #define EVEN_BIT_size      3
+            
+            #define CNT_DATA_BIT_mask      (3 << 5)
+            #define CNT_DATA_BIT_pos       5
+            #define CNT_DATA_BIT_size      3
 /***************************************************************************/
 /***************************************************************************/
   
