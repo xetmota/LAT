@@ -480,12 +480,12 @@
 /***************************************************************************/
 /***************************************************************************/
 
-#define   TEMPERATURE_FLAGS                  (TEMP_VALUE + TEMP_VALUE_SIZE/2)
+#define   TEMPERATURE_FLAGS                  (TEMPERATURE_VALUE + TEMPERATURE_VALUE_SIZE/2)
 #define   TTEMPERATURE_FLAGS_SIZE             (2 * BYTE)
 /***************************************************************************/
 /***************************************************************************/
 
-#define   ALARM_FLAGS                  (TEMP_FLAGS + TEMP_FLAGS_SIZE/2)
+#define   ALARM_FLAGS                  (TEMPERATURE_FLAGS + TEMPERATURE_FLAGS_SIZE/2)
 #define   ALARM_FLAGS_SIZE             (2 * BYTE)
 /***************************************************************************/
 /***************************************************************************/
