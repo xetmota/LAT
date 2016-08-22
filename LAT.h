@@ -66,9 +66,9 @@
       #define   ERR_SOFT_BIT_pos              0
       #define   ERR_SOFT_BIT_size             1
 
-      #define   ERR_ADDR_BIT_mask             (1 << 1)
-      #define   ERR_ADDR_BIT_pos              1
-      #define   ERR_ADDR_BIT_size             1
+      #define   ERR_CLOCK_BIT_mask             (1 << 1)
+      #define   ERR_CLOCK_BIT_pos              1
+      #define   ERR_CLOCK_BIT_size             1
 
       #define   ERR_CALIBRATION_BIT_mask      (1 << 2)
       #define   ERR_CALIBRATION_BIT_pos       2
@@ -117,6 +117,14 @@
       #define   ERR_EXTERNAL_PERIPH_BIT_mask  (1 << 13)
       #define   ERR_EXTERNAL_PERIPH_BIT_pos   13
       #define   ERR_EXTERNAL_PERIPH_BIT_size  1
+      
+      #define   ERR_INPUT_OUTPUT_BIT_mask              (1 << 14)
+      #define   ERR_INPUT_OUTPUT_BIT_pos               14
+      #define   ERR_INPUT_OUTPUT_BIT_size              1
+      
+      #define   ERR_STABILIZATION_SYS_BIT_mask  (1 << 15)
+      #define   ERR_STABILIZATION_SYS_BIT_pos   15
+      #define   ERR_STABILIZATION_SYS_BIT_size  1
 
 /***************************************************************************/
 /***************************************************************************/
